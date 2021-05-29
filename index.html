@@ -5,19 +5,24 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>jquery</title>
+    <title>jquery-axios</title>
 </head>
 <body>
-<button id="click-me">ClickMe</button>
-page number: <input type="number" value="" id="page-number">
+    <button id="click-me">ClickMe</button>
+    page number: <input type="number" value="" id="page-number">
+    <button id="get-tasks">Get Tasks</button>
+    <div id="result"></div>
+    <ul id="tasks-result"></ul>
 
-<div id="result"></div>
 
-    <script
-        src='https://code.jquery.com/jquery-2.2.4.js'
-        integrity='sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI='
-        crossorigin='anonymous'></script>
+    <!--//  jquery+-->
+    <!--    <script-->
+    <!--        src='https://code.jquery.com/jquery-2.2.4.js'-->
+    <!--        integrity='sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI='-->
+    <!--        crossorigin='anonymous'></script>-->
 
+    <!--axios+-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.18.0/axios.js"></script>
     <script src="service.js"></script>
     <script src="index.js"></script>
 
